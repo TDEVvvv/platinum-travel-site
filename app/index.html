@@ -80,16 +80,18 @@
       </picture>
       <div class="large-hero__text-content">
         <div class="wrapper">
-          <h1 class="large-hero__title">Таны нандин дурсамж.</h1>
-          <h2 class="large-hero__subtitle">Ганцхан алхам үлдлээ.</h2>
-          <p class="large-hero__description">
-            Бид таны амьдралыг аз жаргал, адал явдлаар дүүргэх болно.
-          </p>
-          <p>
-            <a href="#" class="btn btn--orange btn--large open-modal"
-              >Өнөөдөр эхлэе</a
-            >
-          </p>
+          <div class="wrapper">
+            <h1 class="large-hero__title">Таны нандин дурсамж.</h1>
+            <h2 class="large-hero__subtitle">Ганцхан алхам үлдлээ.</h2>
+            <p class="large-hero__description">
+              Бид таны амьдралыг аз жаргал, адал явдлаар дүүргэх болно.
+            </p>
+            <p>
+              <a href="#" class="btn btn--orange btn--large open-modal"
+                >Өнөөдөр эхлэе</a
+              >
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -113,9 +115,8 @@
         </h3>
         <div class="wrapper wrapper--medium wrapper--b-margin">
           <img
-            class="lazyload"
             sizes="(min-width: 970px) 976px, 100vw"
-            data-srcset="
+            srcset="
               assets/images/first-trip-low-res.jpg  565w,
               assets/images/first-trip.jpg          976w,
               assets/images/first-trip-hi-dpi.jpg  1952w
@@ -130,7 +131,7 @@
             <picture>
               <source
                 sizes="404px"
-                data-srcset="
+                srcset="
                   assets/images/our-start.jpg        404w,
                   assets/images/our-start-hi-dpi.jpg 808w
                 "
@@ -138,15 +139,14 @@
               />
               <source
                 sizes="316px"
-                data-srcset="
+                srcset="
                   assets/images/our-start-portrait.jpg        382w,
                   assets/images/our-start-portrait-hi-dpi.jpg 764w
                 "
                 media="(min-width: 800px)"
               />
               <img
-                class="lazyload"
-                data-srcset="
+                srcset="
                   assets/images/our-start-landscape.jpg         800w,
                   assets/images/our-start-landscape-hi-dpi.jpg 1600w
                 "
@@ -370,5 +370,6 @@
       </div>
     </footer>
     </div>
+    <script src="bundled.js"></script>
   </body>
 </html>
