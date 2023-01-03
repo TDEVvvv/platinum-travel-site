@@ -5,7 +5,11 @@
   z-index: 2;
   transition: background-color 0.3s ease-out;
   @mixin atMedium {
+    position: fixed;
     background-color: rgba($mainBlue, 0.3);
+    &--dark {
+      background-color: rgba(23, 51, 72, 0.8);
+    }
   }
   &--is-expanded {
     background-color: rgba($mainBlue, 0.55);
